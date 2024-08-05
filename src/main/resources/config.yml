@@ -1,0 +1,210 @@
+required-players: 4
+
+countdown-seconds: 15
+
+lobby-spawn:
+  world-name: world
+  x: 0
+  y: 116
+  z: 0
+  yaw: 0
+  pitch: 0
+arenas:
+  1:
+    world-name: bedwars-desert
+    void-level: 20
+    spawn-location:
+      world-name: bedwars-desert
+      x: -33
+      y: 116
+      z: 10
+      yaw: 0
+      pitch: 0
+    npc-location:
+      world-name: world
+      x: 4
+      y: 117
+      z: 13
+      yaw: -180
+      pitch: 0
+    teams:
+      red:
+        spawn-location:
+          x: -4
+          y: 116
+          z: 25
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -3
+          y: 116
+          z: 25
+          facing: east
+      yellow:
+        spawn-location:
+          x: -39
+          y: 116
+          z: 25
+          yaw: -90
+          pitch: 0
+        bed-location:
+          x: -40
+          y: 116
+          z: 25
+          facing: west
+      green:
+        spawn-location:
+          x: -39
+          y: 116
+          z: 57
+          pitch: -90
+          yaw: 0
+        bed-location:
+          x: -39
+          y: 116
+          z: 57
+          facing: west
+      blue:
+        spawn-location:
+          x: -4
+          y: 116
+          z: 57
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -3
+          y: 116
+          z: 57
+          facing: east
+  2:
+    world-name: bedwars-savannah
+    void-level: 20
+    spawn-location:
+      world-name: bedwars-savannah
+      x: -481
+      y: 116
+      z: 442
+      yaw: 0
+      pitch: 0
+    npc-location:
+      world-name: world
+      x: 0
+      y: 117
+      z: 13
+      yaw: -180
+      pitch: 0
+    teams:
+      red:
+        spawn-location:
+          x: -487
+          y: 116
+          z: 489
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -486
+          y: 116
+          z: 489
+          facing: east
+      yellow:
+        spawn-location:
+          x: -452
+          y: 116
+          z: 489
+          yaw: -90
+          pitch: 0
+        bed-location:
+          x: -453
+          y: 116
+          z: 489
+          facing: west
+      green:
+        spawn-location:
+          x: -451
+          y: 116
+          z: 457
+          pitch: -90
+          yaw: 0
+        bed-location:
+          x: -451
+          y: 116
+          z: 457
+          facing: west
+      blue:
+        spawn-location:
+          x: -488
+          y: 116
+          z: 457
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -487
+          y: 116
+          z: 457
+          facing: east
+  3:
+    world-name: bedwars-snowy-taiga
+    void-level: 20
+    spawn-location:
+      world-name: bedwars-snowy-taiga
+      x: -33
+      y: 116
+      z: 10
+      yaw: 0
+      pitch: 0
+    npc-location:
+      world-name: world
+      x: -4
+      y: 117
+      z: 13
+      yaw: -180
+      pitch: 0
+    teams:
+      red:
+        spawn-location:
+          x: -4
+          y: 116
+          z: 25
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -3
+          y: 116
+          z: 25
+          facing: east
+      yellow:
+        spawn-location:
+          x: -39
+          y: 116
+          z: 25
+          yaw: -90
+          pitch: 0
+        bed-location:
+          x: -40
+          y: 116
+          z: 25
+          facing: west
+      green:
+        spawn-location:
+          x: -39
+          y: 116
+          z: 57
+          pitch: -90
+          yaw: 0
+        bed-location:
+          x: -39
+          y: 116
+          z: 57
+          facing: west
+      blue:
+        spawn-location:
+          x: -4
+          y: 116
+          z: 57
+          yaw: 90
+          pitch: 0
+        bed-location:
+          x: -3
+          y: 116
+          z: 57
+          facing: east

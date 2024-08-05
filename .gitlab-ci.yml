@@ -1,0 +1,21 @@
+stages:
+  - build
+
+variables:
+  NIX_PATH: nixpkgs=channel:nixos-25.11
+
+build:
+  stage: build
+  image: nixos/nix:2.18.1
+  script:
+    - nix --extra-experimental-features 'nix-command flakes' develop --command gradle build
+    - sha1sum build/libs/*
+    - md5sum build/libs/*
+  cache:
+    key: gradle-cache
+    paths:
+      - .gradle/
+  artifacts:
+    paths:
+      - build/libs/
+    expire_in: 7 days

@@ -1,0 +1,12 @@
+[submodule "maps/bedwars-desert"]
+	path = maps/bedwars-desert
+	url = git@gitlab.com:shdima/floating-islands-desert.git
+[submodule "maps/bedwars-snowy-taiga"]
+	path = maps/bedwars-snowy-taiga
+	url = git@gitlab.com:shdima/floating-islands-snowy-taiga.git
+[submodule "maps/bedwars-savanna"]
+	path = maps/bedwars-savanna
+	url = git@gitlab.com:shdima/floating-islands-savanna.git
+[submodule "lobby"]
+	path = lobby
+	url = git@gitlab.com:shdima/block-warriors-world.git
